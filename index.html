@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Lesson__8(Form)</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/img/logo.jpg" alt="" class="logo__img">
+            </div>
+            <h1 class="title__1">Form from Beetroot Academy</h1>
+            <div class="btns">
+                <button class="btn">Sign In</button>
+                <button class="btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <form class="form" action="#">
+                <div>
+                    <label for="user_name">Your name</label>
+                    <input id="user_name" type="text" name="user_name" placeholder="your name">
+                </div>
+                <div>
+                    <label for="user_pass">Your PWD</label>
+                    <input id="user_pass" type="password" name="user_password" placeholder="your pwd">
+                </div>
+                <div>
+                    <p><input type="radio" name="framework" value="vue">Vue JS</p>
+                    <p><input type="radio" name="framework" value="react">React JS</p>
+                    <p><input type="radio" name="framework" value="angular">Angular JS</p>
+                </div>
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea class="" name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="HTML5" value="vue">HTML5
+                    </label>
+                    <label>
+                        <input type="checkbox" name="CSS3" value="react">CSS3
+                    </label>
+                    <label>
+                        <input type="checkbox" name="JS" value="angular">JS
+                    </label>
+                </div>
+                <div>
+                    <select name="country" id="">
+                        <option disabled selected>Your country</option>
+                        <option value="ukr">Ukraine</option>
+                        <option value="pol">Poland</option>
+                        <option value="eng">England</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+                <div class="block-btn">
+                    <!-- <input type="submit" value="Send"> -->
+                    <button class="button" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
